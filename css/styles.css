@@ -150,6 +150,7 @@
     line-height: 1.5;
 }
 .services {
+    padding-top: 0px;
     padding-bottom: 120px;
 }
 .services-header {
