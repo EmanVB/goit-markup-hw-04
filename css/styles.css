@@ -194,6 +194,10 @@
     padding-top: 72px;
     text-align: center;
 }
+.team-list li {
+    background: white;
+    box-shadow: 1px 1px #F4F4FD;
+}
 .team-member {
     font-size: 20px;
     font-weight: 500;
@@ -206,10 +210,50 @@
     width: 16px;
     height: 16px;
 }
-.team-socials-icons svg {
+.team-member-social-links svg {
     fill: white;
 }
+.team-social-links a {
+    text-decoration: none;
+}
+.team-social-links {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding-bottom: 32px;
+}
+.team-member-social-links {
+    width: 40px;
+    height: 40px;
+    background-color: #4D5AE5;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.customer-icons svg {
+    width: 168px;
+    height: 88px;
+    padding: 16px 32px;
+    border: 2px solid #8E8F99;
+    border-radius: 4px;
+
+}
+.customer-icons{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding-top: 72px;
+}
+.customers-header{
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 1.1;
+    text-align: center;
+    margin: 0;
+}
 .footer-items {
     padding-top: 101.5px;
     padding-left: 156px;
