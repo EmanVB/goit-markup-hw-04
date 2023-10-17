@@ -196,7 +196,7 @@
 }
 .team-list li {
     background: white;
-    box-shadow: 1px 1px #F4F4FD;
+    box-shadow: 1px 1px #8E8F99;
 }
 .team-member {
     font-size: 20px;
@@ -231,7 +231,6 @@
     justify-content: center;
     align-items: center;
 }
-
 .customer-icons svg {
     width: 168px;
     height: 88px;
@@ -257,6 +256,7 @@
 .footer-items {
     padding-top: 101.5px;
     padding-left: 156px;
+    padding-bottom: 100px;
 }
 .footer-link {
     text-decoration: none;
@@ -279,11 +279,32 @@ footer {
     background-color: #2E2F42;
     height: 312px;
     align-items: center;
+    display: flex;
 }
 footer .footer-link:hover,
 footer .footer-link:active{
     background-color: red;
     color: yellowgreen;
+}
+.social-media h3{
+    color: white;
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    margin: 0px
+}
+.social-media{
+    padding-left: 120px;
+    padding-top: 24px;
+}
+.team-social-links-footer {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding-top: 16px;
+    padding-bottom: 72px;
 }
 .btns {
     display: flex;
