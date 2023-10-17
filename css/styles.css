@@ -117,13 +117,27 @@
 .key-behaviors {
     padding: 120px 156px
 }
+.icon-kb {
+    border-radius: 4px;
+    background: #F4F4FD;
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+    padding: 24px 0px;
+}
+.icons-keys {
+    width: 64px;
+    height: 64px;
+
+    
+}
 .key-behaviors-list {
-    padding-inline-start: 0px;
     margin: 0;
     list-style-type: none;
     display: flex;
     justify-content: center;
     gap: 24px;
+    padding-inline-start: 0;
 }
 .key-behaviors-header {
     font-size: 20px;
