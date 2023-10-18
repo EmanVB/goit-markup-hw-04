@@ -91,7 +91,7 @@
     padding-bottom: 120px;
 }
 .service-offer {
-    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url("../images/people-office1.jpg");
+    background: linear-gradient(rgba(46, 47, 66, 0.70),rgba(46, 47, 66, 0.70)), url("../images/people-office1.jpg");
     background-size: cover;
     padding-top: 188px;
     padding-bottom: 188px;
@@ -197,7 +197,8 @@
 }
 .team-list li {
     background: white;
-    box-shadow: 1px 1px #8E8F99;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .team-member {
     font-size: 20px;
@@ -299,6 +300,7 @@ footer .footer-link:active{
 .social-media{
     padding-left: 120px;
     padding-top: 24px;
+    display: block;
 }
 .team-social-links-footer {
     display: flex;
@@ -306,6 +308,14 @@ footer .footer-link:active{
     gap: 16px;
     padding-top: 16px;
     padding-bottom: 72px;
+}
+.team-member-social-links {
+    width: 40px;
+    height: 40px;
+}
+.footer-socials-icons{
+    width: 24px;
+    height: 24px;
 }
 .btns {
     display: flex;
@@ -344,4 +354,18 @@ footer .footer-link:active{
     gap: 24px;
     flex-wrap: wrap;
     padding-bottom: 120px;
+}
+.project-list li{
+    border: 1px solid #F4F4FD;
+}
+.project-list li img{
+    border: 1px solid #E7E9FC;
+}
+.project-list li div{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.project-list li:hover,
+.project-list li:active {
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
