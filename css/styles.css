@@ -91,7 +91,8 @@
     padding-bottom: 120px;
 }
 .service-offer {
-    background-color: #2E2F42;
+    background-image: url("../images/people-office1.jpg");
+    background-size: cover;
     padding-top: 188px;
     padding-bottom: 188px;
     text-align: center;
